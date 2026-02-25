@@ -17,13 +17,14 @@ The objective of this project is to analyze political propaganda at the sentence
 ---
 
 ## Project Structure
-project-root/
+
+```
 │
 ├── cat_code_individual.ipynb # Main pipeline notebook (Spanish case)
 ├── data/ # Input propaganda material (images or PDFs)
 ├── outputs/ # Processed text and sentence outputs
 └── README.md
-
+```
 
 ---
 
