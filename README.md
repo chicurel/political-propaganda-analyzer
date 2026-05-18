@@ -8,8 +8,8 @@ The pipeline performs:
 
 1. OCR extraction from campaign material (using Mistral OCR)
 2. Text cleaning and normalization
-3. Sentence segmentation
-4. Sentence translation if text is not in Spanish or Enlgish
+3. Sentence segmentation using spaCy
+4. Sentence translation if text is not in Spanish or Enlgish using LLMs
 5. Sentence-level classification using LLMs 
 
 The objective of this project is to analyze political propaganda at the sentence level in a structured, modular, and reproducible way.
